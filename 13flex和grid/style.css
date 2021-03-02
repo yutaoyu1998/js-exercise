@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  height: 400px;
+}
+.left {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 153, 0);
+}
+.right {
+  background-color: lawngreen;
+  flex: 1;
+}
+
+.grid-parent {
+  width: 600px;
+  /* grid-template-columns: repeat(auto-fill, 100px); */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 100px 1fr 1fr;
+  display: grid;
+  /* grid-template-columns: repeat(3, 33.33%); */
+  /* grid-template-rows: repeat(3, 33.33%); */
+}
+.grid-parent div {
+  height: 100px;
+}
+.grid-parent .one {
+  background-color: lawngreen;
+}
+.grid-parent .two {
+  background-color: lightblue;
+}
+.grid-parent .three {
+  background-color: lightcoral;
+}
+.grid-parent .four {
+  background-color: lightpink;
+}
+.grid-parent .six {
+  background-color: limegreen;
+}
+.grid-parent .seven {
+  background-color: mediumpurple;
+}
+.grid-parent .eight {
+  background-color: moccasin;
+}
+.grid-parent .nine {
+  background-color: orange;
+}
